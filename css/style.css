@@ -1,0 +1,58 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.contacts {
+  width: 30%;
+  float: left;
+}
+
+.messages {
+  width: 70%;
+  float: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+}
+
+.sent {
+  color: white;
+  background-color: green;
+}
+
+.received {
+  color: black;
+  background-color: white;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.message.sent {
+  color: green;
+}
+.message.received {
+  color: white;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#app {
+  background-image: url("./img/mine.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
